@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#1c2633" />
+    <meta name="description" content="Tiny Life — an open-ended pixel life simulation." />
+    <title>Tiny Life</title>
+  </head>
+  <body>
+    <div id="app-shell">
+      <header class="brandbar">
+        <div>
+          <div class="eyebrow">TINY LIFE · EARLY PLAYABLE</div>
+          <h1>Tiny Life</h1>
+        </div>
+        <div class="status-chip" id="save-status">Autosave ready</div>
+      </header>
+
+      <main id="game-wrap">
+        <div id="game"></div>
+      </main>
+
+      <footer class="helpbar">
+        <span>Move: WASD / arrows</span>
+        <span>Use tool: E / Space</span>
+        <span>Tools: 1–4</span>
+        <span>Talk / shop: E</span>
+      </footer>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
